@@ -1,53 +1,68 @@
-# Hello there! 👋
+<img align="left" src="https://raw.githubusercontent.com/orhun/orhun/refs/heads/master/assets/ratatui-spin-dark.gif#gh-dark-mode-only">
+<img align="left" src="https://raw.githubusercontent.com/orhun/orhun/refs/heads/master/assets/ratatui-spin-light.gif#gh-light-mode-only">
+
+### Hey!
+
+👾 I'm **Arkaprava Bhattacharya**.
+
+🦀 Aspiring Software Engineer & ML Enthusiast.
+
+- I'm a second-year CSE student and aspiring software developer. I'm building my portfolio website, AB-Space, with React to showcase my projects and exploring machine learning for space research. I'm also expanding my skills in Java, OOP, and finance, aiming to apply them in the space industry. I love collaborating on open-source projects and dreaming of the next giant leap for mankind.
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=ABhattacharya-dev)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```cpp
+#include <iostream>
+#include <cmath>
+#include <chrono>
+#include <thread>
 
-class SoftwareEngineer:
-    def __init__(self):
-        self.name = "Your Name"
-        self.role = "Aspiring Software Engineer & ML Enthusiast"
-        self.language_spoken = ["en_US", "hi_IN", "bng_IN"]
+constexpr double rocketDeltaV(double m0, double mf, double Isp, double g0 = 9.81) {
+    return Isp * g0 * std::log(m0 / mf);
+}
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting!")
+int main() {
+    constexpr double initialMass = 500000;
+    constexpr double finalMass   = 100000; 
+    constexpr double specificImpulse = 300; 
 
-me = SoftwareEngineer()
-me.say_hi()
+    constexpr double deltaV = rocketDeltaV(initialMass, finalMass, specificImpulse);
+
+    std::cout << "Arkaprava Bhattacharya\n"
+              << "Aspiring Space Engineer & ML Enthusiast\n\n"
+              << "Calculated Δv: " << deltaV << " m/s\n\n";
+
+
+    for (int i = 3; i >= 0; --i) {
+        std::cout << "T-minus " << i << "...\n";
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
+    }
+    std::cout << "Liftoff! \n";
+
+    return 0;
+}
+
 ```
 
-## 🚀 About Me  
-- 🔭 **Currently Working On:** Full-stack **Formula 1 Website** using React & Firebase  
-- 🎯 **Future Goals:** Master **Machine Learning** & build impactful projects  
-- 👨‍💻 **Tech Enthusiast:** Passionate about **DSA, Web Dev, and Open Source**  
-- 📚 **Learning:** Java, OOPs, and Financial Literacy  
-- ⚡ **Fun Fact:** I love **Mii-Chan**!  
+
+
+
+## 🚀 Skills
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ABhattacharya-dev/ABhattacharya-dev/refs/heads/main/Mii2005.webp" width="200" alt="Mii-Chan">
+  <img src="https://skillicons.dev/icons?i=c,cpp,firebase,git,java,js,python,react,vscode" />
 </p>
 
-## 🔧 Technologies & Tools  
 
-### **Programming Languages**  
-![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
-![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=openjdk&logoColor=white&color=6aa6f8)
-![C++](https://img.shields.io/badge/Code-C%2B%2B-informational?style=flat&logo=c%2B%2B&logoColor=white&color=6aa6f8)
-![JavaScript](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8)
+## 🔧 Tech Stack
 
-### **Web & Cloud**  
-![React](https://img.shields.io/badge/Frontend-React-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
-![Firebase](https://img.shields.io/badge/Backend-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=6aa6f8)
-![Vite](https://img.shields.io/badge/Build-Vite-informational?style=flat&logo=vite&logoColor=white&color=6aa6f8)
-
-### **Tools & Platforms**  
-![VS Code](https://img.shields.io/badge/Editor-VSCode-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
-![Android Studio](https://img.shields.io/badge/Tools-Android%20Studio-informational?style=flat&logo=android-studio&logoColor=white&color=6aa6f8)
-![Git](https://img.shields.io/badge/VersionControl-Git-informational?style=flat&logo=git&logoColor=white&color=6aa6f8)
-
+| Domain | Tools & Technologies |
+|---|---|
+| **Frontend** | React, Vite |
+| **Backend** | Firebase |
+| **Languages** | JavaScript, Python, Java, C++, C |
+| **Tools** | VS Code, Android Studio, Git |
 ## 🏆 GitHub Trophies  
 [![trophy](https://github-profile-trophy.vercel.app/?username=your-github-username&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
