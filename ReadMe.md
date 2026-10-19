@@ -48,7 +48,7 @@ int main() {
 
 
 
-## 🚀 Skills
+## Skills
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,firebase,git,java,js,python,react,vscode" />
@@ -63,11 +63,9 @@ int main() {
 | **Backend** | Firebase |
 | **Languages** | JavaScript, Python, Java, C++, C |
 | **Tools** | VS Code, Android Studio, Git |
-## 🏆 GitHub Trophies  
-[![trophy](https://github-profile-trophy.vercel.app/?username=ABhattacharya-dev&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 📊 GitHub Stats  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=ABhattacharya-dev&theme=dark&hide_border=true&short_numbers=true)](https://git.io/streak-stats)
+## GitHub Stats  
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=ABhattacharya-dev&theme=dark&hide_border=true&short_numbers=true" alt="GitHub Streak" /></a>
 
 ---  
 ✨ _Feel free to explore my repositories and connect with me!_
