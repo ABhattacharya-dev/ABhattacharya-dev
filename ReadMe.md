@@ -65,7 +65,7 @@ int main() {
 | **Tools** | VS Code, Android Studio, Git |
 
 ## GitHub Stats  
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=ABhattacharya-dev&theme=dark&hide_border=true&short_numbers=true" alt="GitHub Streak" /></a>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ABhattacharya-dev&theme=dark&hide_border=true&short_numbers=true" alt="GitHub Streak" />
 
 ---  
 ✨ _Feel free to explore my repositories and connect with me!_
