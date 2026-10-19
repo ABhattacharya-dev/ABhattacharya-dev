@@ -67,7 +67,7 @@ int main() {
 [![trophy](https://github-profile-trophy.vercel.app/?username=your-github-username&theme=nord&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ABhattacharya-dev&show_icons=true&theme=radical)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=ABhattacharya-dev&theme=dark&hide_border=true&short_numbers=true)](https://git.io/streak-stats)
 
 ---  
 ✨ _Feel free to explore my repositories and connect with me!_
